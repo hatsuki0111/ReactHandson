@@ -46,8 +46,10 @@ const App =()=>{
       <Navbar/>
  ```  
 
-import React ,{useState, useEffect} from 'react';
+import React ,{useState, useEffect} from 'react';する  
 
+コードはおまじない
+今後追記します2020/7/25  
 
 -components  
   -BlogCard.jsをいじる  
