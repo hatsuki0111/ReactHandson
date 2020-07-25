@@ -144,6 +144,7 @@ importBlogcardする
 mapでjson配列のtitle bodyなどを全部出力でBlogCard.jsを呼び出しその中でレンダリングかな？  
 <Now Loading>はデータとっている待ち時間にhtmlに表示  
  
+ コメントアウト/**/  
  
  ToDo
   map hook
