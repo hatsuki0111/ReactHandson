@@ -11,16 +11,18 @@ npm install contentful
 npm install react-contentfulのどっちか  
 
 constantsの中にcontentful.jsを作る  
-```
 -constans
- -contentful.js
+ -contentful.js  
+ 
+```
  export default{
  space: 'kokoniireru',
  accessToken: 'kokoniirerunndayo'
  }
  ```  
  apikey書く
- git push時はignoreで指定だけどま別に大丈夫
+ git push時はignoreで指定だけどま別に大丈夫  
+ 
 App.js  
 import * as contentful from "contentful";
 contentfulを使うと自動import  
@@ -49,7 +51,7 @@ const App =()=>{
 import React ,{useState, useEffect} from 'react';する  
 
 コードはおまじない
-今後追記します2020/7/25  
+コード説明は今後追記します2020/7/25  
 
 -components  
   -BlogCard.jsをいじる  
@@ -95,6 +97,7 @@ Contentfulでブログ作ったときのtitle body image publishDateがjsonに�
 <img src={props.data.fields.image.fields.file.url}/>
 ```  
 は画像srcにjsonデータのurlを入れる
+Contentfulの画像がDRAFTになっていることがあるのでPublishかどうかを確認する  
 ```
 <h3>{props.data.fields.title}</h3>
 ```  
