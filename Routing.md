@@ -19,15 +19,7 @@ App.jsにrouterをいれる  npm install react-router-dom(react-routerは古い)
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';を追加するfunction App(){}は古いのでconst App =()=>{}にする  
 
-
-```
-<BrouserRouter>  
-   <Switch>  
-   </Switch>  
-</BrouseRouter>  
-```  
-<Navbar />を<BrouserRouter>の下にに(Navbarとは)  
-<Footer />を</BrouserRouter>の上にに(Footerとは)  
+App.jsの中に  
 
 ```
 <BrouserRouter>  
@@ -43,7 +35,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';  
 
 ```
-<Switch>の中に  
+<Switch></Switch>の中に  
 <Route exact  
     path="/"　　　　　ルーティングのパス指定  
     render={() => <Top />}>　　Top.jsをレンダリング  
