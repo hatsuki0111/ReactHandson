@@ -41,12 +41,13 @@ import Footer from './components/Footer';
     path="/"　　　　　ルーティングのパス指定  
     render={() => <Top />}>　　Top.jsをレンダリング  
 </Route>  
+```  
 以下About Contactも同じ  
 importを追加する  
 import Contact from './pages/Contact';  
 import About from './pages/About';  
 import Top from './pages/Top';  
-```  
+
 
 
 npm startする  
