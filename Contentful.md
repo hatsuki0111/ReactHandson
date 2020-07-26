@@ -60,7 +60,7 @@ NameにpublishDateと入力(ブログの投稿日時となる)。
 ![Contentful14](https://user-images.githubusercontent.com/44164993/88462840-552dfb00-cee9-11ea-8c51-7d2c497c99cb.png)  
 
 
-medhiaを選択する。  
+mediaを選択する。  
 
 ![Contentful15](https://user-images.githubusercontent.com/44164993/88462878-b3f37480-cee9-11ea-8849-3567686a1ecc.png)  
 
