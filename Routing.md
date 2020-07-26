@@ -15,43 +15,82 @@ componentの説明
 
 -pagesにTop.js About.js Contact.jsを作成(Class extendsとかrender()とかは古い)  
 
-App.jsにrouterをいれる  npm install react-router-dom(react-routerは古い)  
+App.jsの中身を消して以下のコードをApp.jsに書く  
+```
+import React from 'react'
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';を追加するfunction App(){}は古いのでconst App =()=>{}にする  
+const App =()=>{
+return(
+  <div>hello world</div>
+);
+}
+export default App
+```  
+ブラウザでhello worldを確認  
 
-App.jsの中に  
+
+App.jsにrouterをいれる(react-routerは古い)  
+```
+npm install react-router-dom  
+```  
+App.jsにimportを追加する  
+```
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+```
+App.jsの中にRoutingを書くfunction App(){}は古いのでconst App =()=>{}にする    
 
 ```
-<BrouserRouter>  
+import React from 'react'
+
+const App =()=>{
+return(
+<BrowserRouter>  
   <Navbar />  
    <Switch>  
    </Switch>  
    <Footer />  
-</BrouseRouter>  
+</BrowseRouter>
+);
+}
+export default App
 ```  
 
 importを追加  
-import Navbar from './components/Navbar';  
-import Footer from './components/Footer';  
+import Navbar from './components/Navbar'  
+import Footer from './components/Footer'  
 
+Top.jsのページ遷移  
 ```
 <Switch></Switch>の中に  
 <Route exact  
-    path="/"　　　　　ルーティングのパス指定  
+    path="/"　　　　　         ルーティングのパス指定  
     render={() => <Top />}>　　Top.jsをレンダリング  
 </Route>  
 ```  
 
-  
+About.jsとContact.jsのページ遷移  
 ```
-以下About Contactも同じ  
-importを追加する  
+<Route exact  
+    path="/"　　　　　          
+    render={() => <Top />}>　　  
+</Route> 
+---ここから↓
+<Route exact  
+    path="/about"　　　　　         ルーティングのパス指定  
+    render={() => <About />}>　　Top.jsをレンダリング  
+</Route>  
+<Route exact  
+    path="/contact"　　　　　          
+    render={() => <Contact />}>　　  
+</Route> 
+```  
+ 
+App.jsにimportを追加する  
+```  
 import Contact from './pages/Contact';  
 import About from './pages/About';  
 import Top from './pages/Top';  
 ```  
-
-
 
 npm startする  
 ブラウザのurlパスをlocalhost:3000/  
