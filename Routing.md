@@ -93,7 +93,9 @@ import Top from './pages/Top';
 ```  
 
 npm startする  
-ブラウザのurlパスをlocalhost:3000/  
+ブラウザのurlパスをlocalhost:3000/にする  
+Top.jsが見れることを確認  
+
 windowsは文字化けたまにあり  
 localhost:3000/about  
-localhost:3000/contactを試し、Top About Contactと変化するのを確認  
+localhost:3000/contactを試し、About.js Contact.jsと変化するのを確認  
