@@ -195,6 +195,10 @@ props.data.???.???とか探す
 Contentfulでブログ作ったときのtitle body image publishDateがjsonになっている
 clgはEmmet  
 
+![Contentful26](https://user-images.githubusercontent.com/44164993/88487422-f38c9000-cfbf-11ea-919b-b46ff1c986cd.png)  
+
+
+
 ```
 <img src={props.data.fields.image.fields.file.url}/>
 ```  
@@ -245,6 +249,11 @@ importBlogcardする
 引数props
 mapでjson配列のtitle bodyなどを全部出力でBlogCard.jsを呼び出しその中でレンダリングする  
 <Now Loading>はデータとっている待ち時間にhtmlに表示  
+ 
+ 結果
+ ![Contentful27](https://user-images.githubusercontent.com/44164993/88487447-1e76e400-cfc0-11ea-8e67-0fc591c86b73.png)  
+ 
+
  
  exportしたやつは他のファイルでimportできる  
  
