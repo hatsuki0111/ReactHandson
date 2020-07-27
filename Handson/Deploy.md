@@ -11,3 +11,4 @@ settingでauthorize押して、allrepositoryかrepositoryを指定する
 build triggerを押す  
 上にsuccesufullyとかできる  
 
+本当はTravisの方でトークンとかprojectを環境変数にして$変数で渡すべき、
