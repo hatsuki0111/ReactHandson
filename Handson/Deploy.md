@@ -5,11 +5,12 @@ https://note.com/wtnb_dev/n/nccd313a346bf
 firebase  
 https://firebase.google.com/?hl=ja  
 
-Travisは.comと.orgのurlがあるが、2018年までpublicは.orgでprivateリポジトリが.comだったが解消され、.comですべて完結するようになった。
-↓を使う
+Travisは.comと.orgのurlがあるが、2018年までpublicは.orgでprivateリポジトリが.comだったが解消され、.comですべて完結するようになった。  
+↓を使う  
 https://travis-ci.com/
 
-~~https://travis-ci.org/ ~~~  
+~~https://travis-ci.org/~~  
+
 
 
 firebase login: cli  
