@@ -6,7 +6,7 @@ Top.jsに最新4つのblogが表示されており、titleとpublishDateとimage
 ![blogs](https://user-images.githubusercontent.com/44164993/88716181-a6dcbc80-d159-11ea-9ef7-28323b7f46f2.png)
 
 
-このように詳細が見られる(Blogs.js)
+このように詳細が見られる(Article.js)
 ![blogsDetail](https://user-images.githubusercontent.com/44164993/88716219-b825c900-d159-11ea-8e5e-6edab206b568.png)  
 
 このTop.jsとBlogs.jsを作る  
@@ -23,10 +23,13 @@ blogを4つだすためにTop.jsをforで4回
 BlogCardを<BlogCard />でよぶ(BlogCard.jsにtitle publishDate imageが記述されている)  
 これで最新4つBlogがTop.jsに表示される  
 
-次にBlogs.jsを作る  
+次にArticle.jsを作る  
 Top.jsのblogから1つクリックすると、そのblogのtitle body image publishDateが表示される  
 BlogCardをimportする  
 Top.jsのblog idをBlogs.jsでpropsで受け取りそのblog idと紐づけてmapで1つのblogのtitlse body image publishDateを表示させる  
+
+Top.jsのArticleのルーティングpathはblog:idにする
+data={blog}でデータを渡す  
 
 
 
