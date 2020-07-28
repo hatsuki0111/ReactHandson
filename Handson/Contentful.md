@@ -107,6 +107,11 @@ API Keyをメモするかなどで覚えておく(後で使う)
 ![Contentful25_LI](https://user-images.githubusercontent.com/44164993/88463186-f5851f00-ceeb-11ea-8ce5-afec9b2a3fbc.jpg)  
 
 
+contentfulの設定が完了した。  
+ここでは1つのblogをTop.js(トップページ)に表示させたいと思う  
+以下手順  
+
+
 sdkを入れる  
 npm install contentful  
 npm install react-contentfulのどっちか  
@@ -148,6 +153,19 @@ const App =()=>{
     <BrowserRouter> 
       <Navbar/>
  ```  
+useStateでcontentfulで設定したtitle body publishDate imageをblogにセットする  
+そのblogを表示するTop.jsに渡す  
+```
+ <BrowserRouter>
+  <Navbar />
+  <Switch>
+    <Route exact
+      path="/"
+      render={() => <Top data={blog}/>}>
+    </Route>
+```  
+<Top data={blog} />でTop.jsに1つのblogのデータを渡している
+
 
 import React ,{useState, useEffect} from 'react';する  
 
@@ -179,7 +197,7 @@ const BlogCard =(props)=>{
 export default BlogCard
 ```  
 
-引数propsでブログのデータ  
+引数propsで1つのブログのデータを渡す  
 
 Contentfulのマークダウンをhtmlにする
 ```
@@ -246,7 +264,7 @@ export default Top
 ```  
 
 importBlogcardする
-引数props
+引数propsでBlogCard.jsの1つのブログのデータ(title body publishDate image)をすべて表示させる
 mapでjson配列のtitle bodyなどを全部出力でBlogCard.jsを呼び出しその中でレンダリングする  
 <Now Loading>はデータとっている待ち時間にhtmlに表示  
  
