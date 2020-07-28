@@ -59,7 +59,22 @@ importを追加
 import Navbar from './components/Navbar'  
 import Footer from './components/Footer'  
 
-Top.jsのページ遷移  
+Top.jsのページ遷移をする  
+Top.jsを作る  
+```
+import React from 'react'
+
+const Top =()=>{
+return(
+  <div>Topだお</div>
+);
+}
+export default Top
+
+```  
+
+
+App.jsの中にTop.jsのルーティング処理を書く  
 ```
 <Switch></Switch>の中に  
 <Route exact  
@@ -68,7 +83,9 @@ Top.jsのページ遷移
 </Route>  
 ```  
 
-About.jsとContact.jsのページ遷移  
+blogs.jsのページ遷移をする  
+Top.js同様にpagesフォルダの中にBlogs.jsファイルを作る  
+App.js  
 ```
 <Route exact  
     path="/"　　　　　          
@@ -76,19 +93,14 @@ About.jsとContact.jsのページ遷移
 </Route> 
 ---ここから↓
 <Route exact  
-    path="/about"　　　　　         ルーティングのパス指定  
-    render={() => <About />}>　　Top.jsをレンダリング  
+    path="/blogs"　　　　　         ルーティングのパス指定  
+    render={() => <Blogs />}>　　Blogs.jsをレンダリング  
 </Route>  
-<Route exact  
-    path="/contact"　　　　　          
-    render={() => <Contact />}>　　  
-</Route> 
 ```  
  
 App.jsにimportを追加する  
-```  
-import Contact from './pages/Contact';  
-import About from './pages/About';  
+```    
+import Blogs from './pages/Blogs';  
 import Top from './pages/Top';  
 ```  
 
@@ -97,5 +109,5 @@ npm startする
 Top.jsが見れることを確認  
 
 windowsは文字化けたまにあり  
-localhost:3000/about  
-localhost:3000/contactを試し、About.js Contact.jsと変化するのを確認  
+localhost:3000/blogs  
+Blogs.jsが見れることを確認する  
