@@ -2,6 +2,8 @@
 公式  
 https://ja.reactjs.org/tutorial/tutorial.html
 
+http://basic-react.axlight.com/html/  
+
 https://auth0.com/blog/jp-react-tutorial-building-and-securing-your-first-app/  
 
 https://fukatsu.tech/react-tutorial  
