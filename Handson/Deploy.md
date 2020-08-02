@@ -61,6 +61,11 @@ deploy:
   token:
     secure:　トークンをセキュアで指定  
     
+ 
+ 理想は以下の構成にしたい(LOCAL SAWADAさんの)
+ ![Sawada](https://user-images.githubusercontent.com/44164993/89112860-61dfbf80-d4a4-11ea-8211-3cd19563833d.png)
+
+    
  Slackにテスト結果を通知させる  
  https://qiita.com/matsuda/items/01707c74c2423958a273  
  
