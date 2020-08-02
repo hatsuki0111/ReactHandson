@@ -61,6 +61,8 @@ deploy:
   token:
     secure:　トークンをセキュアで指定  
     
-
+ Slackにテスト結果を通知させる  
+ https://qiita.com/matsuda/items/01707c74c2423958a273  
+ 
 
   
