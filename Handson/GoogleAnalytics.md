@@ -11,7 +11,7 @@ npm install react-ga --save
 App.jsに以下のコードを書く  
 ```
 import React from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ReactGA from 'react-ga';
 import createBrowserHistory from 'history/createBrowserHistory';
  
@@ -24,12 +24,12 @@ history.listen(({ pathname }) => {
 });
  
 render(
-       <BrowseRouter history={history}> ///historyを渡す  
+       <BrowserRouter history={history}> ///historyを渡す  
          <Switch>
            <Route .../>
            <Route .../>
          </Switch>
-       </BrowseRouter>,
+       </BrowserRouter>,
        document.getElementById('root')
 )
 ```  
