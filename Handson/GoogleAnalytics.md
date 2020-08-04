@@ -1,5 +1,9 @@
 # Google Analyticsの導入方法  
 
+Google Analytics  
+https://analytics.google.com/  
+
+
 GoogleAnalyticsにログインしてトラッキング情報を発行のとこまでは以下サイト参照
 https://web-kanji.com/posts/google-analytics-setting  
 
