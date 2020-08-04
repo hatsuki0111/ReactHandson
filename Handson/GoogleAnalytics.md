@@ -33,3 +33,7 @@ render(
        document.getElementById('root')
 )
 ```  
+
+
+react-gaは最新のgtag.jsではなくanalytics.jsが使われている  
+https://qiita.com/mildsummer/items/184315e6f9a6d298113e
