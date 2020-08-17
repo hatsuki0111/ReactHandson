@@ -11,5 +11,5 @@ srcのソースコードPageやcomponentsを書く
 componentsはReact.jsの考え方  
 App.jsが全ページ共通  
 App.jsをindex.jsでjsに変換して実行する  
-https://github.com/hatsuki0111/ReactHandson/blob/master/Handson/Routing.md  
+[2回目](https://github.com/hatsuki0111/ReactHandson/blob/master/Handson/Routing.md)  
 
