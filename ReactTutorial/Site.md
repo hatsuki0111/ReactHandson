@@ -46,6 +46,9 @@ https://qiita.com/y_kawase/items/8f1b5a303400a09c49
 
 https://qiita.com/rgbkids/items/8ec309d1bf5e203d2b19  
 
+fullstackopen  
+https://fullstackopen.com/en  
+
 
 開発フローとか  
 https://qiita.com/numanomanu/items/af97312f34cf1388cee6  
@@ -53,4 +56,6 @@ https://qiita.com/numanomanu/items/af97312f34cf1388cee6
 learnyoureact  
 https://github.com/workshopper/learnyoureact/blob/master/README.md  
 
+Youtube  
+https://www.youtube.com/watch?v=Otrc2zAlJyM&list=PLX8Rsrpnn3IWKz6H5ZEPWBY8AKWwb9qq7  
 
