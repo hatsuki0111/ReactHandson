@@ -13,7 +13,7 @@ componentの説明
 
 -conponentsにNavbar.js Footer.jsを作成  
 
--pagesにTop.js About.js Contact.jsを作成(Class extendsとかrender()とかは古い)  
+-pagesにTop.js About.js Contact.jsを作成  
 
 App.jsの中身を消して以下のコードをApp.jsに書く  
 ```
@@ -29,7 +29,7 @@ export default App
 ブラウザでhello worldを確認  
 
 
-App.jsにrouterをいれる(react-routerは古い)  
+App.jsにrouterをいれる  
 ```
 npm install react-router-dom  
 ```  
