@@ -40,4 +40,9 @@ render(
 
 
 react-gaは最新のgtag.jsではなくanalytics.jsが使われている  
-https://qiita.com/mildsummer/items/184315e6f9a6d298113e
+https://qiita.com/mildsummer/items/184315e6f9a6d298113e  
+
+not defind　undefみたいなのでたら  
+npm install -S しようぜ  
+import {createBrowserHistroy} from 'history'   
+
